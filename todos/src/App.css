@@ -1,0 +1,109 @@
+
+.app {
+  line-height: 1.5;
+  color: #bdbddd;
+  background-color: #242424;
+  max-width: 960px;
+  margin: 10px auto;
+  padding:  16px;
+  border-radius:10px;
+  display: flex;
+  min-height: 90vh;
+flex-direction: column; 
+}
+
+.title{
+  color:#fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.form{
+  display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.todos_form_group{
+position: relative;
+width: 50%;
+}
+
+.form_input{
+  width: 50%;
+  height: 44px;
+  border-radius: 6px;
+  border: 2px solid #535bf2;
+  background-color: transparent; 
+  padding: 12px 10px;
+  outline: none;
+  margin-bottom: 4px;
+
+}
+
+
+
+
+.form_input::placeholder {
+  color: rgba(253, 253, 255, 0.2);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+
+.form__btn{
+  padding: 8px 12px;
+  height: 44px;
+  border-radius: 4px;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  background-color: #646cff;
+  color: #F8F9FF;
+  transition: 0.3s;
+  transition: 0.3s;
+}
+
+.form__btn:hover{
+  background-color: #6E7FCF;
+}
+
+.todos_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 25px 0;
+}
+
+.text{
+width: 50%;
+color: #F8F9FF;
+}
+
+.btn_delete{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #f44336;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+
+
+}
